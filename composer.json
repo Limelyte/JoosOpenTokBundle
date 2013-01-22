@@ -1,0 +1,36 @@
+{
+    "name": "joos/opentok-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle to facilitate the use of TokBox OpenTok",
+    "keywords": ["TokBox", "OpenTok", "bundle"],
+    "homepage": "https://github.com/djoos/JoosOpenTokBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Joos",
+            "email": "iam@davidjoos.com"
+        },
+        {
+            "name": "Community contributors",
+            "homepage": "https://github.com/djoos/JoosOpenTokBundle/graphs/contributors"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2",
+        "opentok/Opentok-PHP-SDK": "dev-master"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "2.1.*",
+        "symfony/security-bundle": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": { "Joos\\OpenTokBundle": "" }
+    },
+    "target-dir": "Joos/OpenTokBundle"
+}

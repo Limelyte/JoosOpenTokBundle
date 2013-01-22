@@ -1,0 +1,4 @@
+services:
+    opentok:
+        class: %opentok.class%
+        arguments: [%opentok.key%, %opentok.secret%]
