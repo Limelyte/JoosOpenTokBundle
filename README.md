@@ -15,7 +15,7 @@ composer.json:
 }
 ```
 
-The official OpenTok repo (https://github.com/opentok/Opentok-PHP-SDK) hasn't got a composer.json (pull request opened), so we need to repoint to my fork...
+The official OpenTok repo (https://github.com/opentok/Opentok-PHP-SDK) is currently missing composer.json (PR: https://github.com/opentok/Opentok-PHP-SDK/pull/8), so temporarily repoint to my fork...
 
 ```
 "repositories": [
