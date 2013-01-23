@@ -14,11 +14,11 @@ class JoosOpenTokExtension extends Extension
 		$configuration = new Configuration();
 		$config = $this->processConfiguration($configuration, $configs);
 
-                $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
-                $loader->load('services.yml');
+		$loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+		$loader->load('services.yml');
 
-                $container->setParameter('opentok.class', $config['class']);
-                $container->setParameter('opentok.key', $config['key']);
-                $container->setParameter('opentok.secret', $config['secret']);
+		$container->setParameter('opentok.class', $config['class']);
+		$container->setParameter('opentok.key', $config['key']);
+		$container->setParameter('opentok.secret', $config['secret']);
 	}
 }
