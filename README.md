@@ -4,7 +4,7 @@ The JoosOpenTokBundle is a simple and easy way to use TokBox OpenTok in Symfony2
 
 ## Installation
 
-composer.json:
+composer.json
 
 ```
 "require": {
