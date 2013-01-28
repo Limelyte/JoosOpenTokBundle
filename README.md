@@ -9,7 +9,7 @@ composer.json
 ```
 "require": {
     ...
-    "joos/opentok-bundle": "2.1.x-dev",
+    "joos/open-tok-bundle": "2.1.x-dev",
     "opentok/Opentok-PHP-SDK": "dev-master",
     ...
 }
@@ -47,7 +47,7 @@ app/config/config.yml
 
 ```
 # Joos OpenTok configuration
-joos_opentok:
+joos_open_tok:
     class: OpenTokSDK
     key: #your OpenTok key
     secret: #your OpenTok secret
@@ -58,14 +58,14 @@ joos_opentok:
 Get the OpenTokSDK object to work with:
 
 ```
-$this->get('opentok');
+$this->get('open_tok');
 ```
 
 ## Usage example
 
 ```
-$opentok = $this->get('opentok');
+$open_tok = $this->get('open_tok');
 
 //Creating Sessions
-$session = $opentok->createSession($_SERVER["REMOTE_ADDR"]);
+$session = $open_tok->createSession($_SERVER["REMOTE_ADDR"]);
 ```
