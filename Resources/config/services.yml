@@ -1,4 +1,4 @@
 services:
-    open_tok:
-        class: %open_tok.class%
-        arguments: [%open_tok.key%, %open_tok.secret%]
+    joos_open_tok:
+        class: %joos_open_tok.class%
+        arguments: [%joos_open_tok.key%, %joos_open_tok.secret%]

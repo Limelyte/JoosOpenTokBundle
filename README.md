@@ -58,13 +58,13 @@ joos_open_tok:
 Get the OpenTokSDK object to work with:
 
 ```
-$this->get('open_tok');
+$this->get('joos_open_tok');
 ```
 
 ## Usage example
 
 ```
-$open_tok = $this->get('open_tok');
+$open_tok = $this->get('joos_open_tok');
 
 //Creating Sessions
 $session = $open_tok->createSession($_SERVER["REMOTE_ADDR"]);
