@@ -17,14 +17,14 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "2.1.x-dev"
+            "dev-master": "2.2.x-dev"
         }
     },
     "minimum-stability": "dev",
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/djoos/Opentok-PHP-SDK"
+            "url": "https://github.com/opentok/Opentok-PHP-SDK"
         }
     ],
     "require": {
@@ -32,8 +32,8 @@
         "opentok/Opentok-PHP-SDK": "dev-master"
     },
     "require-dev": {
-        "symfony/framework-bundle": "2.1.*",
-        "symfony/security-bundle": "2.1.*"
+        "symfony/framework-bundle": "2.2.*",
+        "symfony/security-bundle": "2.2.*"
     },
     "autoload": {
         "psr-0": { "Joos\\OpenTokBundle": "" }

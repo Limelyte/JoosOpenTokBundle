@@ -9,7 +9,7 @@ composer.json
 ```
 "require": {
     ...
-    "joos/open-tok-bundle": "2.1.x-dev",
+    "joos/open-tok-bundle": "2.2.x-dev",
     "opentok/Opentok-PHP-SDK": "dev-master",
     ...
 }
