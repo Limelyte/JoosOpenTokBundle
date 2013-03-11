@@ -15,16 +15,11 @@
             "homepage": "https://github.com/djoos/JoosOpenTokBundle/graphs/contributors"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1.x-dev"
-        }
-    },
     "minimum-stability": "dev",
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/djoos/Opentok-PHP-SDK"
+            "url": "https://github.com/opentok/Opentok-PHP-SDK"
         }
     ],
     "require": {
