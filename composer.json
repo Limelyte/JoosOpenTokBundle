@@ -15,11 +15,6 @@
             "homepage": "https://github.com/djoos/JoosOpenTokBundle/graphs/contributors"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2.x-dev"
-        }
-    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
