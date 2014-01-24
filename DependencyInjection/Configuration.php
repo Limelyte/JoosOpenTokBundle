@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('joos_open_tok');
+            $rootNode = $treeBuilder->root('joos_open_tok');
 
         $rootNode
         	->children()

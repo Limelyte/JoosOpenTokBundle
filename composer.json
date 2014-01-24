@@ -27,7 +27,12 @@
     },
     "require-dev": {
         "symfony/framework-bundle": "~2.3",
-        "symfony/security-bundle": "~2.3"
+        "symfony/security-bundle": "~2.3",
+        "friendsofsymfony/rest-bundle": "~1.0"
+    },
+    "suggest": {
+        "friendsofsymfony/rest-bundle": "Add REST support for creating token and session ID's",
+        "nelmio/api-doc-bundle": "For automatic API documentation"
     },
     "autoload": {
         "psr-0": { "Joos\\OpenTokBundle": "" }

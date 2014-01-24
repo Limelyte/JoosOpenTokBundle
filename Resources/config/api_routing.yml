@@ -1,0 +1,6 @@
+joos_opentok_create_session:
+    pattern: /session.json
+    methods: [POST]
+    defaults:
+        _controller: JoosOpenTokBundle:OpenTok:create
+        _format: json
